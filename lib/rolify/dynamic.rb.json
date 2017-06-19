@@ -1,0 +1,3120 @@
+{
+  "80": {
+    "~self_stmt": {
+      "sid": 80,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": null,
+    "method_call": {
+      "mc_target": {
+        "identifier": {
+          "var_kind": { "~type": "Var_Constant", "~val_names": [] },
+          "string": "RDL",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        },
+        "string": "CFG",
+        "~type": "ID_Scope",
+        "~val_names": [ "identifier", "string" ]
+      },
+      "mc_msg": {
+        "string": "preprocess",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "string":
+            "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 31,
+      "pos_bol": 868,
+      "pos_cnum": 871,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "79": {
+    "~self_stmt": {
+      "sid": 79,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": null,
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "require",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_31",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 30,
+      "pos_bol": 809,
+      "pos_cnum": 816,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "78": {
+    "~self_stmt": {
+      "sid": 78,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_31",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_30",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "string": "/../../typesigs/rolify/dynamic_typesigs.rb",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 30,
+      "pos_bol": 809,
+      "pos_cnum": 818,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "77": {
+    "~self_stmt": {
+      "sid": 77,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_30",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "cwd",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 30,
+      "pos_bol": 809,
+      "pos_cnum": 818,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "76": {
+    "~self_stmt": {
+      "sid": 76,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "cwd",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Constant", "~val_names": [] },
+        "string": "File",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "expand_path",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        { "string": "..", "~type": "Lit_String", "~val_names": [ "string" ] },
+        {
+          "string":
+            "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 29,
+      "pos_bol": 770,
+      "pos_cnum": 780,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "70": {
+    "~self_stmt": {
+      "sid": 70,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_29",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Return",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "69": {
+    "~self_stmt": {
+      "sid": 69,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_29",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "x",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "rdl_cast",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "string": "Proc or Symbol",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 22,
+      "pos_bol": 691,
+      "pos_cnum": 698,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "64": {
+    "~self_stmt": {
+      "sid": 64,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": { "~type": "ID_Nil", "~val_names": [] },
+    "~type": "Next",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "62": {
+    "~self_stmt": {
+      "sid": 62,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_28",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Next",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "51": {
+    "~self_stmt": {
+      "sid": 51,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_23",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Next",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "50": {
+    "~self_stmt": {
+      "sid": 50,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_23",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "has_role?",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_22",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        },
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "arg",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 18,
+      "pos_bol": 565,
+      "pos_cnum": 584,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "48": {
+    "~self_stmt": {
+      "sid": 48,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_22",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 18,
+      "pos_bol": 565,
+      "pos_cnum": 586,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "52": {
+    "~self_stmt": {
+      "sid": 52,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 48 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 48,
+        "lexical_locals": [],
+        "preds": [ 52 ],
+        "succs": [ 50 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 50,
+        "lexical_locals": [],
+        "preds": [ 48 ],
+        "succs": [ 51 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 51,
+        "lexical_locals": [],
+        "preds": [ 50 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "61": {
+    "~self_stmt": {
+      "sid": 61,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_28",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "define_method",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_24",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": {
+        "block_formal_param_list": [
+          {
+            "var_kind": { "~type": "Var_Local", "~val_names": [] },
+            "string": "arg",
+            "~type": "Formal_block_id",
+            "~val_names": [ "var_kind", "string" ]
+          }
+        ],
+        "stmt": {
+          "sid": 52,
+          "lexical_locals": [],
+          "preds": [],
+          "succs": [],
+          "~type": "",
+          "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+        },
+        "~type": "CB_Block",
+        "~val_names": [ "block_formal_param_list", "stmt" ]
+      },
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 17,
+      "pos_bol": 504,
+      "pos_cnum": 525,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "56": {
+    "~self_stmt": {
+      "sid": 56,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_24",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_27",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_sym",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 17,
+      "pos_bol": 504,
+      "pos_cnum": 527,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "55": {
+    "~self_stmt": {
+      "sid": 55,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_27",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_26",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "string": "_of?",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 17,
+      "pos_bol": 504,
+      "pos_cnum": 527,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "54": {
+    "~self_stmt": {
+      "sid": 54,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_26",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "string": "is_",
+        "~type": "Lit_String",
+        "~val_names": [ "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_25",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 17,
+      "pos_bol": 504,
+      "pos_cnum": 527,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "53": {
+    "~self_stmt": {
+      "sid": 53,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_25",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 17,
+      "pos_bol": 504,
+      "pos_cnum": 527,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "63": {
+    "~self_stmt": {
+      "sid": 63,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 53 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 53,
+        "lexical_locals": [],
+        "preds": [ 63 ],
+        "succs": [ 54 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 54,
+        "lexical_locals": [],
+        "preds": [ 53 ],
+        "succs": [ 55 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 55,
+        "lexical_locals": [],
+        "preds": [ 54 ],
+        "succs": [ 56 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 56,
+        "lexical_locals": [],
+        "preds": [ 55 ],
+        "succs": [ 61 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 61,
+        "lexical_locals": [],
+        "preds": [ 56 ],
+        "succs": [ 62 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 62,
+        "lexical_locals": [],
+        "preds": [ 61 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "65": {
+    "~self_stmt": {
+      "sid": 65,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 63, 64 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_21",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt1": {
+      "sid": 63,
+      "lexical_locals": [],
+      "preds": [ 65 ],
+      "succs": [ 53 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt2": {
+      "sid": 64,
+      "lexical_locals": [],
+      "preds": [ 65 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "If",
+    "~val_names": [ "~self_stmt", "expr", "stmt1", "stmt2" ]
+  },
+  "45": {
+    "~self_stmt": {
+      "sid": 45,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_21",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_15",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "46": {
+    "~self_stmt": {
+      "sid": 46,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_21",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "resource",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "47": {
+    "~self_stmt": {
+      "sid": 47,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 45, 46 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_15",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt1": {
+      "sid": 46,
+      "lexical_locals": [],
+      "preds": [ 47 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt2": {
+      "sid": 45,
+      "lexical_locals": [],
+      "preds": [ 47 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "If",
+    "~val_names": [ "~self_stmt", "expr", "stmt1", "stmt2" ]
+  },
+  "36": {
+    "~self_stmt": {
+      "sid": 36,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_15",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": { "~type": "ID_True", "~val_names": [] },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "37": {
+    "~self_stmt": {
+      "sid": 37,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_15",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": { "~type": "ID_False", "~val_names": [] },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "43": {
+    "~self_stmt": {
+      "sid": 43,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 36, 37 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_16",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt1": {
+      "sid": 37,
+      "lexical_locals": [],
+      "preds": [ 43 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt2": {
+      "sid": 36,
+      "lexical_locals": [],
+      "preds": [ 43 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "If",
+    "~val_names": [ "~self_stmt", "expr", "stmt1", "stmt2" ]
+  },
+  "42": {
+    "~self_stmt": {
+      "sid": 42,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_16",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "method_defined?",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_17",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 19,
+      "pos_bol": 606,
+      "pos_cnum": 637,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "41": {
+    "~self_stmt": {
+      "sid": 41,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_17",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_20",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_sym",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 19,
+      "pos_bol": 606,
+      "pos_cnum": 639,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "40": {
+    "~self_stmt": {
+      "sid": 40,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_20",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_19",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "string": "_of?",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 19,
+      "pos_bol": 606,
+      "pos_cnum": 639,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "39": {
+    "~self_stmt": {
+      "sid": 39,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_19",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "string": "is_",
+        "~type": "Lit_String",
+        "~val_names": [ "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_18",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 19,
+      "pos_bol": 606,
+      "pos_cnum": 639,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "38": {
+    "~self_stmt": {
+      "sid": 38,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_18",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 19,
+      "pos_bol": 606,
+      "pos_cnum": 639,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "34": {
+    "~self_stmt": {
+      "sid": 34,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": { "~type": "ID_Nil", "~val_names": [] },
+    "~type": "Expression",
+    "~val_names": [ "~self_stmt", "expr" ]
+  },
+  "26": {
+    "~self_stmt": {
+      "sid": 26,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_10",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Next",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "25": {
+    "~self_stmt": {
+      "sid": 25,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_10",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "has_role?",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_9",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 14,
+      "pos_bol": 408,
+      "pos_cnum": 427,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "23": {
+    "~self_stmt": {
+      "sid": 23,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_9",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 14,
+      "pos_bol": 408,
+      "pos_cnum": 429,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "27": {
+    "~self_stmt": {
+      "sid": 27,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 23 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 23,
+        "lexical_locals": [],
+        "preds": [ 27 ],
+        "succs": [ 25 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 25,
+        "lexical_locals": [],
+        "preds": [ 23 ],
+        "succs": [ 26 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 26,
+        "lexical_locals": [],
+        "preds": [ 25 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "32": {
+    "~self_stmt": {
+      "sid": 32,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": null,
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "define_method",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_11",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": {
+        "block_formal_param_list": [
+          {
+            "string": "__tmp_8",
+            "~type": "Formal_star",
+            "~val_names": [ "string" ]
+          }
+        ],
+        "stmt": {
+          "sid": 27,
+          "lexical_locals": [],
+          "preds": [],
+          "succs": [],
+          "~type": "",
+          "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+        },
+        "~type": "CB_Block",
+        "~val_names": [ "block_formal_param_list", "stmt" ]
+      },
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 13,
+      "pos_bol": 356,
+      "pos_cnum": 377,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "31": {
+    "~self_stmt": {
+      "sid": 31,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_11",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_14",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_sym",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 13,
+      "pos_bol": 356,
+      "pos_cnum": 379,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "30": {
+    "~self_stmt": {
+      "sid": 30,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_14",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_13",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        { "string": "?", "~type": "Lit_String", "~val_names": [ "string" ] }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 13,
+      "pos_bol": 356,
+      "pos_cnum": 379,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "29": {
+    "~self_stmt": {
+      "sid": 29,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_13",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "string": "is_",
+        "~type": "Lit_String",
+        "~val_names": [ "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_12",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 13,
+      "pos_bol": 356,
+      "pos_cnum": 379,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "28": {
+    "~self_stmt": {
+      "sid": 28,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_12",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 13,
+      "pos_bol": 356,
+      "pos_cnum": 379,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "33": {
+    "~self_stmt": {
+      "sid": 33,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 28 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 28,
+        "lexical_locals": [],
+        "preds": [ 33 ],
+        "succs": [ 29 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 29,
+        "lexical_locals": [],
+        "preds": [ 28 ],
+        "succs": [ 30 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 30,
+        "lexical_locals": [],
+        "preds": [ 29 ],
+        "succs": [ 31 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 31,
+        "lexical_locals": [],
+        "preds": [ 30 ],
+        "succs": [ 32 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 32,
+        "lexical_locals": [],
+        "preds": [ 31 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "35": {
+    "~self_stmt": {
+      "sid": 35,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 33, 34 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_2",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt1": {
+      "sid": 33,
+      "lexical_locals": [],
+      "preds": [ 35 ],
+      "succs": [ 28 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt2": {
+      "sid": 34,
+      "lexical_locals": [],
+      "preds": [ 35 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "If",
+    "~val_names": [ "~self_stmt", "expr", "stmt1", "stmt2" ]
+  },
+  "15": {
+    "~self_stmt": {
+      "sid": 15,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_2",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": { "~type": "ID_True", "~val_names": [] },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "16": {
+    "~self_stmt": {
+      "sid": 16,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_2",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "tuple_expr": { "~type": "ID_False", "~val_names": [] },
+    "~type": "Assign",
+    "~val_names": [ "~self_stmt", "lhs", "tuple_expr" ]
+  },
+  "22": {
+    "~self_stmt": {
+      "sid": 22,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 15, 16 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_3",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt1": {
+      "sid": 16,
+      "lexical_locals": [],
+      "preds": [ 22 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt2": {
+      "sid": 15,
+      "lexical_locals": [],
+      "preds": [ 22 ],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "If",
+    "~val_names": [ "~self_stmt", "expr", "stmt1", "stmt2" ]
+  },
+  "21": {
+    "~self_stmt": {
+      "sid": 21,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_3",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "method_defined?",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_4",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 15,
+      "pos_bol": 444,
+      "pos_cnum": 475,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "20": {
+    "~self_stmt": {
+      "sid": 20,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_4",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_7",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_sym",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 15,
+      "pos_bol": 444,
+      "pos_cnum": 477,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "19": {
+    "~self_stmt": {
+      "sid": 19,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_7",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_6",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        { "string": "?", "~type": "Lit_String", "~val_names": [ "string" ] }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 15,
+      "pos_bol": 444,
+      "pos_cnum": 477,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "18": {
+    "~self_stmt": {
+      "sid": 18,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_6",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "string": "is_",
+        "~type": "Lit_String",
+        "~val_names": [ "string" ]
+      },
+      "mc_msg": {
+        "unary_op": "+",
+        "~type": "ID_Operator",
+        "~val_names": [ "unary_op" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_5",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 15,
+      "pos_bol": 444,
+      "pos_cnum": 477,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "17": {
+    "~self_stmt": {
+      "sid": 17,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_5",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "role_name",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "to_s",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 15,
+      "pos_bol": 444,
+      "pos_cnum": 477,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "66": {
+    "~self_stmt": {
+      "sid": 66,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 17 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 17,
+        "lexical_locals": [],
+        "preds": [ 66 ],
+        "succs": [ 18 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 18,
+        "lexical_locals": [],
+        "preds": [ 17 ],
+        "succs": [ 19 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 19,
+        "lexical_locals": [],
+        "preds": [ 18 ],
+        "succs": [ 20 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 20,
+        "lexical_locals": [],
+        "preds": [ 19 ],
+        "succs": [ 21 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 21,
+        "lexical_locals": [],
+        "preds": [ 20 ],
+        "succs": [ 22 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 22,
+        "lexical_locals": [],
+        "preds": [ 21 ],
+        "succs": [ 15, 16 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 35,
+        "lexical_locals": [],
+        "preds": [ 15, 16 ],
+        "succs": [ 33, 34 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 38,
+        "lexical_locals": [],
+        "preds": [ 32, 34 ],
+        "succs": [ 39 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 39,
+        "lexical_locals": [],
+        "preds": [ 38 ],
+        "succs": [ 40 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 40,
+        "lexical_locals": [],
+        "preds": [ 39 ],
+        "succs": [ 41 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 41,
+        "lexical_locals": [],
+        "preds": [ 40 ],
+        "succs": [ 42 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 42,
+        "lexical_locals": [],
+        "preds": [ 41 ],
+        "succs": [ 43 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 43,
+        "lexical_locals": [],
+        "preds": [ 42 ],
+        "succs": [ 36, 37 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 47,
+        "lexical_locals": [],
+        "preds": [ 36, 37 ],
+        "succs": [ 45, 46 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 65,
+        "lexical_locals": [],
+        "preds": [ 45, 46 ],
+        "succs": [ 63, 64 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "67": {
+    "~self_stmt": {
+      "sid": 67,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "x",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "class_eval",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": {
+        "block_formal_param_list": [
+          {
+            "string": "__tmp_1",
+            "~type": "Formal_star",
+            "~val_names": [ "string" ]
+          }
+        ],
+        "stmt": {
+          "sid": 66,
+          "lexical_locals": [],
+          "preds": [],
+          "succs": [],
+          "~type": "",
+          "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+        },
+        "~type": "CB_Block",
+        "~val_names": [ "block_formal_param_list", "stmt" ]
+      },
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 12,
+      "pos_bol": 331,
+      "pos_cnum": 351,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "71": {
+    "~self_stmt": {
+      "sid": 71,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 67 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 67,
+        "lexical_locals": [],
+        "preds": [ 71 ],
+        "succs": [ 69 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 69,
+        "lexical_locals": [],
+        "preds": [ 67 ],
+        "succs": [ 70 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 70,
+        "lexical_locals": [],
+        "preds": [ 69 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "72": {
+    "~self_stmt": {
+      "sid": 72,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "method_body": {
+      "method_body_str":
+        "x = class_eval() {|*__tmp_1|\n  __tmp_5 = role_name.to_s()\n  __tmp_6 = %{is_}.+(__tmp_5)\n  __tmp_7 = __tmp_6.+(%{?})\n  __tmp_4 = __tmp_7.to_sym()\n  __tmp_3 = method_defined?(__tmp_4)\n  if __tmp_3 then\n    __tmp_2 = false\n  else\n    __tmp_2 = true\n  end\n  if __tmp_2 then\n    __tmp_12 = role_name.to_s()\n    __tmp_13 = %{is_}.+(__tmp_12)\n    __tmp_14 = __tmp_13.+(%{?})\n    __tmp_11 = __tmp_14.to_sym()\n    define_method(__tmp_11) {|*__tmp_8|\n      __tmp_9 = role_name.to_s()\n      __tmp_10 = has_role?(__tmp_9)\n      next __tmp_10 \n    }\n  else\n    nil\n  end\n  __tmp_18 = role_name.to_s()\n  __tmp_19 = %{is_}.+(__tmp_18)\n  __tmp_20 = __tmp_19.+(%{_of?})\n  __tmp_17 = __tmp_20.to_sym()\n  __tmp_16 = method_defined?(__tmp_17)\n  if __tmp_16 then\n    __tmp_15 = false\n  else\n    __tmp_15 = true\n  end\n  if __tmp_15 then\n    __tmp_21 = resource\n  else\n    __tmp_21 = __tmp_15\n  end\n  if __tmp_21 then\n    __tmp_25 = role_name.to_s()\n    __tmp_26 = %{is_}.+(__tmp_25)\n    __tmp_27 = __tmp_26.+(%{_of?})\n    __tmp_24 = __tmp_27.to_sym()\n    __tmp_28 = define_method(__tmp_24) {|arg|\n      __tmp_22 = role_name.to_s()\n      __tmp_23 = has_role?(__tmp_22, arg)\n      next __tmp_23 \n    }\n    next __tmp_28 \n  else\n    next nil \n  end\n}\n__tmp_29 = x.rdl_cast(%{Proc or Symbol})\nreturn __tmp_29\n",
+      "method_body_hash": 114947431,
+      "~type": "MethodDef",
+      "~val_names": [ "method_body_str", "method_body_hash" ]
+    },
+    "def_name": {
+      "def_name": {
+        "string": "define_dynamic_method",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "~type": "Instance_Method",
+      "~val_names": [ "def_name" ]
+    },
+    "method_formal_params": [
+      {
+        "string": "role_name",
+        "~type": "Formal_meth_id",
+        "~val_names": [ "string" ]
+      },
+      {
+        "string": "resource",
+        "~type": "Formal_meth_id",
+        "~val_names": [ "string" ]
+      }
+    ],
+    "stmt": {
+      "sid": 71,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 67 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "Method",
+    "~val_names": [
+      "~self_stmt", "method_body", "def_name", "method_formal_params", "stmt"
+    ]
+  },
+  "12": {
+    "~self_stmt": {
+      "sid": 12,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_7",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Return",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "8": {
+    "~self_stmt": {
+      "sid": 8,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?tuple_expr": {
+      "var_kind": { "~type": "Var_Local", "~val_names": [] },
+      "string": "__tmp_6",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "~type": "Next",
+    "~val_names": [ "~self_stmt", "?tuple_expr" ]
+  },
+  "7": {
+    "~self_stmt": {
+      "sid": 7,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_6",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": null,
+      "mc_msg": {
+        "string": "define_dynamic_method",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_4",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        },
+        {
+          "var_kind": { "~type": "Var_Local", "~val_names": [] },
+          "string": "__tmp_5",
+          "~type": "ID_Var",
+          "~val_names": [ "var_kind", "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 6,
+      "pos_bol": 161,
+      "pos_cnum": 190,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "5": {
+    "~self_stmt": {
+      "sid": 5,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_5",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "r",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "resource",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 6,
+      "pos_bol": 161,
+      "pos_cnum": 200,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "4": {
+    "~self_stmt": {
+      "sid": 4,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_4",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "r",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "name",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 6,
+      "pos_bol": 161,
+      "pos_cnum": 192,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "9": {
+    "~self_stmt": {
+      "sid": 9,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 4 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 4,
+        "lexical_locals": [],
+        "preds": [ 9 ],
+        "succs": [ 5 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 5,
+        "lexical_locals": [],
+        "preds": [ 4 ],
+        "succs": [ 7 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 7,
+        "lexical_locals": [],
+        "preds": [ 5 ],
+        "succs": [ 8 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 8,
+        "lexical_locals": [],
+        "preds": [ 7 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "11": {
+    "~self_stmt": {
+      "sid": 11,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_7",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_1",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "each",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": {
+        "block_formal_param_list": [
+          {
+            "var_kind": { "~type": "Var_Local", "~val_names": [] },
+            "string": "r",
+            "~type": "Formal_block_id",
+            "~val_names": [ "var_kind", "string" ]
+          }
+        ],
+        "stmt": {
+          "sid": 9,
+          "lexical_locals": [],
+          "preds": [],
+          "succs": [],
+          "~type": "",
+          "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+        },
+        "~type": "CB_Block",
+        "~val_names": [ "block_formal_param_list", "stmt" ]
+      },
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 5,
+      "pos_bol": 99,
+      "pos_cnum": 109,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "3": {
+    "~self_stmt": {
+      "sid": 3,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_1",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_2",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "all",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 5,
+      "pos_bol": 99,
+      "pos_cnum": 109,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "2": {
+    "~self_stmt": {
+      "sid": 2,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_2",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_3",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "mc_msg": {
+        "string": "rdl_cast",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [
+        {
+          "string": "Class<Role>",
+          "~type": "Lit_String",
+          "~val_names": [ "string" ]
+        }
+      ],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 5,
+      "pos_bol": 99,
+      "pos_cnum": 109,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "1": {
+    "~self_stmt": {
+      "sid": 1,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": {
+      "#identifier": {
+        "var_kind": { "~type": "Var_Local", "~val_names": [] },
+        "string": "__tmp_3",
+        "~type": "ID_Var",
+        "~val_names": [ "var_kind", "string" ]
+      },
+      "~type": "#identifier",
+      "~val_names": [ "#identifier" ]
+    },
+    "method_call": {
+      "mc_target": { "~type": "ID_Self", "~val_names": [] },
+      "mc_msg": {
+        "string": "role_class",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "mc_args": [],
+      "mc_cb": null,
+      "~type": "",
+      "~val_names": [ "mc_target", "mc_msg", "mc_args", "mc_cb" ]
+    },
+    "pos": {
+      "pos_fname":
+        "/home/pldi/.rvm/gems/ruby-2.2.3/gems/rolify-4.0.0/lib/rolify/dynamic.rb",
+      "pos_lnum": 5,
+      "pos_bol": 99,
+      "pos_cnum": 109,
+      "~type": "MethodCallPos",
+      "~val_names": [ "pos_fname", "pos_lnum", "pos_bol", "pos_cnum" ]
+    },
+    "~type": "MethodCall",
+    "~val_names": [ "~self_stmt", "?lhs", "method_call", "pos" ]
+  },
+  "13": {
+    "~self_stmt": {
+      "sid": 13,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 1 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 1,
+        "lexical_locals": [],
+        "preds": [ 13 ],
+        "succs": [ 2 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 2,
+        "lexical_locals": [],
+        "preds": [ 1 ],
+        "succs": [ 3 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 3,
+        "lexical_locals": [],
+        "preds": [ 2 ],
+        "succs": [ 11 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 11,
+        "lexical_locals": [],
+        "preds": [ 3 ],
+        "succs": [ 12 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 12,
+        "lexical_locals": [],
+        "preds": [ 11 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "14": {
+    "~self_stmt": {
+      "sid": 14,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "method_body": {
+      "method_body_str":
+        "__tmp_3 = self.role_class()\n__tmp_2 = __tmp_3.rdl_cast(%{Class<Role>})\n__tmp_1 = __tmp_2.all()\n__tmp_7 = __tmp_1.each() {|r|\n  __tmp_4 = r.name()\n  __tmp_5 = r.resource()\n  __tmp_6 = define_dynamic_method(__tmp_4, __tmp_5)\n  next __tmp_6 \n}\nreturn __tmp_7\n",
+      "method_body_hash": 341884238,
+      "~type": "MethodDef",
+      "~val_names": [ "method_body_str", "method_body_hash" ]
+    },
+    "def_name": {
+      "def_name": {
+        "string": "load_dynamic_methods",
+        "~type": "ID_MethodName",
+        "~val_names": [ "string" ]
+      },
+      "~type": "Instance_Method",
+      "~val_names": [ "def_name" ]
+    },
+    "method_formal_params": [],
+    "stmt": {
+      "sid": 13,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 1 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "Method",
+    "~val_names": [
+      "~self_stmt", "method_body", "def_name", "method_formal_params", "stmt"
+    ]
+  },
+  "73": {
+    "~self_stmt": {
+      "sid": 73,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 14 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 14,
+        "lexical_locals": [],
+        "preds": [ 73 ],
+        "succs": [ 72 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 72,
+        "lexical_locals": [],
+        "preds": [ 14 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  },
+  "74": {
+    "~self_stmt": {
+      "sid": 74,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 73 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": null,
+    "identifier": {
+      "var_kind": { "~type": "Var_Constant", "~val_names": [] },
+      "string": "Dynamic",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt": {
+      "sid": 73,
+      "lexical_locals": [],
+      "preds": [ 74 ],
+      "succs": [ 14 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "Module",
+    "~val_names": [ "~self_stmt", "?lhs", "identifier", "stmt" ]
+  },
+  "75": {
+    "~self_stmt": {
+      "sid": 75,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 74 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "?lhs": null,
+    "identifier": {
+      "var_kind": { "~type": "Var_Constant", "~val_names": [] },
+      "string": "Rolify",
+      "~type": "ID_Var",
+      "~val_names": [ "var_kind", "string" ]
+    },
+    "stmt": {
+      "sid": 74,
+      "lexical_locals": [],
+      "preds": [ 75 ],
+      "succs": [ 73 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "~type": "Module",
+    "~val_names": [ "~self_stmt", "?lhs", "identifier", "stmt" ]
+  },
+  "81": {
+    "~self_stmt": {
+      "sid": 81,
+      "lexical_locals": [],
+      "preds": [],
+      "succs": [ 75 ],
+      "~type": "",
+      "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+    },
+    "stmt_list": [
+      {
+        "sid": 75,
+        "lexical_locals": [],
+        "preds": [ 81 ],
+        "succs": [ 74 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 76,
+        "lexical_locals": [],
+        "preds": [ 72 ],
+        "succs": [ 77 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 77,
+        "lexical_locals": [],
+        "preds": [ 76 ],
+        "succs": [ 78 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 78,
+        "lexical_locals": [],
+        "preds": [ 77 ],
+        "succs": [ 79 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 79,
+        "lexical_locals": [],
+        "preds": [ 78 ],
+        "succs": [ 80 ],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      },
+      {
+        "sid": 80,
+        "lexical_locals": [],
+        "preds": [ 79 ],
+        "succs": [],
+        "~type": "",
+        "~val_names": [ "sid", "lexical_locals", "preds", "succs" ]
+      }
+    ],
+    "~type": "Seq",
+    "~val_names": [ "~self_stmt", "stmt_list" ]
+  }
+}
